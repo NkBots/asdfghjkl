@@ -1,0 +1,50 @@
+{
+  "name": "Telegram Tag Botu",
+  "logo":"https://te.legra.ph/file/6d467d87d4b65fc483097.jpg",
+  "description": "İstifadəçi tagger botu pulsuz üzvlərinizi etiketləyən bir botdur",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Botun tokeni yasın.",
+      "value": "5740066159:AAFi9y9SVjZGDWzNxUfCKzdVW75Dhc4iMYw"
+    },
+    "API_ID": {
+      "description": "Api-İd yazın.",
+      "value": "15954332"
+    },
+    "API_HASH": {
+      "description": "Api-Hash yazın",
+      "value": "85adea6f1eaf068b707703b4846a9ced"
+    },
+    "BOT_NAME": {
+      "description": "OLD TAGGER",
+      "value": "OLD TAGGER"
+    },
+    "BOT_USERNAME": {
+      "description": "oldtaggerBot",
+      "value": "oldtaggerBot"
+    },
+    "BOT_ID": {
+      "description": "Botun ID-si yazın",
+      "value": "5740066159"
+    },
+    "SUDO_USERS": {
+      "description": "Öz ID-ni yazın",
+      "value": "5134595693"
+    },
+    "SUPPORT_CHAT": {
+      "description": "Dəstək qrupun tag adı @ olmadan yazın",
+      "value": "TEAMABASOFcom"
+    },
+    "OWNER_ID": {
+      "description": "Öz ID-ni yazın",
+      "value": "5134595693"
+    },
+    "OWNER_USERNAME": {
+      "description": "Öz tag adını @ olmadan yazın",
+      "value": "AnonyumAz"
+    }
+  },
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }]
+}

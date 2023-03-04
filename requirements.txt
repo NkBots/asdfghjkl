@@ -1,0 +1,7 @@
+#teamabasov test
+pyrogram==1.4.16
+telethon
+TgCrypto
+telegraph
+requests
+openai
