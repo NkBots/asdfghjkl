@@ -64,7 +64,7 @@ def btag():
 
 
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 
